@@ -1,0 +1,27 @@
+- Create a Repo
+- Initialize the Repo
+- node_modules, package.json, package-lock.json
+- Install express
+- create aserver
+- Listen server on PORT
+- Write request Handlers for /routes
+- install nodemon and update Scripts in package.json
+- What are dependencies
+- what is significance of "-g" in npm install 
+- What is ^ & ~ in version and difference.
+
+- Initialised GIT Repo
+- gitignore
+- Create remote Repo
+- Push all code to Github
+- Play with routes and routes extentions
+- Order of Routes Matters a lot in case of app.use();
+- Install Postman and make a Workapace and test API
+- Create GET, POST, PUT, PATCH, DELETE API.
+- Explore Different routes and learn ?, +, *, () and regex in URLs.
+- How to read query, params and reding dynamic routes
+- what is middlewares and why do we need them?
+- How Express handles routes behind the scene?
+- write a dummy auth middleware for admin
+- write dummy auth middleware for users for all routes except user/login
+- Error handling using app.use("/", (err, req, res,next));
