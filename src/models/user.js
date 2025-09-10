@@ -43,6 +43,9 @@ const userSchema = new mongoose.Schema({
     },
     skills: {
         type: [String]
+    },
+    interests: {
+        type: [String]
     }
 });
 userSchema.index({emailId: 1}, {unique: true});
